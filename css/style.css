@@ -1,0 +1,24 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.row > .col-md-12 button[type="button"] {
+  float: right;
+  border: 1px solid black;
+  font-size: 20px;
+}
+.row > .col-md-12 button[type="button"]:hover {
+  font-size: 21px;
+}
+tbody:hover {
+  background-color: rgb(249, 249, 250);
+  cursor: unset;
+}
+.col-md-12 {
+  background-color: rgba(7, 11, 255, 0.01);
+}
