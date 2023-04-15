@@ -4,7 +4,7 @@ registro.ID = 1
 registro.Nome = "Fernando"
 registro.Sobrenome = "Andrade"
 registro.DataNascimento = "08/03/1983"
-registro.Formacao = "Superior"
+registro.Formacao = "Engenheiro da Computação"
 
 
 dados.push(registro)
