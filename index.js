@@ -1,15 +1,15 @@
 var dados = []
-// var registro = {}
-// registro.ID = 1
-// registro.Nome = "Fernando"
-// registro.Sobrenome = "Andrade"
-// registro.DataNascimento = "08/03/1983"
-// registro.Formacao = "Superior"
+var registro = {}
+registro.ID = 1
+registro.Nome = "Fernando"
+registro.Sobrenome = "Andrade"
+registro.DataNascimento = "08/03/1983"
+registro.Formacao = "Superior"
 
 
-// dados.push(registro)
-// localStorage.setItem("__dados__", JSON.stringify(dados))
-// localStorage.getItem("__dados__")
+dados.push(registro)
+localStorage.setItem("__dados__", JSON.stringify(dados))
+localStorage.getItem("__dados__")
 
 function ApagaRegistro(id) {
   let _confirm = confirm("Deseja realmente apagar os dados desse registro?")
@@ -44,7 +44,6 @@ function PopulaTabela() {
     $("#tbldados tbody").html("");
 
     dados.forEach(function (item) {
-      //Template string
       $("#tbldados tbody").append(`<tr>
   <td>${item.ID}</td>
   <td>${item.Nome}</td>
